@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+.dates__wrap {
+    width: 55em;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+.date {
+    position: relative;
+    padding: 1.5em;
+    display: flex;
+    margin-top: 1em;
+    background: #eee;
+}
+
+.date--header {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.date__name {
+    flex-grow: 4;
+}
+
+.date__days {
+    text-align: center;
+    width: 20%;
+}
+
+.date__weeks {
+    text-align: center;
+    width: 20%;
+}
+
+.date__delete {
+    position: absolute;
+    right: -2em;
+
+    width: 2em;
+    height: 2em;
+    display: block;
+
+    background: red;
+
+    cursor: pointer;
+}
