@@ -8,38 +8,43 @@
     <script src="moment.js"></script>
 </head>
 <body>
-    <div class="dates__wrap">
-        <h2>Dates</h2>
+    <div class="outer__wrap">
 
-        <div class="date date--header">
-            <span class="date__name">Event</span>
-            <span class="date__days">Total Days</span>
-            <span class="date__weeks">Full Weeks</span>
+        <div class="dates__wrap wrap">
+            <h1>Dates</h1>
+
+            <div class="date date__header">
+                <span class="date__name">Event</span>
+                <span class="date__days">Days</span>
+                <span class="date__weeks">Weeks</span>
+                <span class="button__delete"></span>
+            </div>
+
+            <div class="dates">
+            </div>
+
+            <div class="dates__add form__wrap">
+                <form>
+                    <input class="dates__add-name form__add-name" type="text" placeholder="Name...">
+                    <input class="dates__add-date" type="text" placeholder="2018-01-01">
+                    <button class="dates__add-save button__add">Add</button>
+                </form>
+            </div>
         </div>
 
-        <div class="dates">
-        </div>
-
-        <div class="dates__add">
-            <form>
-                <input class="dates__add-name" type="text">
-                <input class="dates__add-date" type="text" placeholder="2018-01-01">
-                <button class="dates__add-save">Save</button>
-            </form>
+        <div class="projects__wrap wrap">
+            <h1>Projects</h1>
+            <div class="projects">
+            </div>
+            <div class="project__add form__wrap">
+                <form>
+                    <input class="projects__add-name form__add-name" type="text" placeholder="Name...">
+                    <button class="projects__add-save button__add">Add</button>
+                </form>
+            </div>
         </div>
     </div>
 
-    <div class="projects__wrap">
-        <h2>Projects</h2>
-        <div class="projects">
-        </div>
-        <div class="project__add">
-            <form>
-                <input class="projects__add-name" type="text">
-                <button class="projects__add-save">Save</button>
-            </form>
-        </div>
-    </div>
     <script src="jQuery.3.3.1.min.js"></script>
     <script src="script.js"></script>
 </body>
